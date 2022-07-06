@@ -1,0 +1,135 @@
+<html>
+<head><title>CSS Backgrounds</title>
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h1.css">
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h2.css">
+<style>
+#note{
+     background-color:yellow;
+     color:red;
+}
+
+h4 {
+  background-color: green;
+}
+
+div {
+  background-color: rgb(0,255,255);
+}
+
+#Example {
+  background-color: #FFFF00;
+}
+#one {
+  background-color: green;
+}
+
+
+div.second {
+  opacity: 0.6;
+}
+
+div.third {
+  opacity: 0.3;
+}
+
+div.forth {
+  opacity: 0.1;
+}
+
+div.eight {
+  background: rgb(0, 128, 0);
+}
+
+div.fifth {
+  background: rgba(0, 128, 0, 0.1);
+}
+
+div.sixth {
+  background: rgba(0, 128, 0, 0.3);
+}
+
+div.seventh {
+  background: rgba(0, 128, 0, 0.6);
+}
+</style>
+</head>
+<body>
+	<h1><u>CSS Borders</u></h1>
+
+		<p>The CSS background properties are used to add background effects for elements. There are two types of background properties
+		we use in CSS. They are</p>
+			<li>Background-color</li>
+			<li>Background-image</li>
+
+	<h2><u>Background-color:-</u></h2>
+
+		<p>The background-color property specifies the background color of an element.With CSS, a color is most often specified by:</p>
+			<li>a valid color name - like "red"</li>
+			<li>a HEX value - like "#ff0000"</li>
+			<li>an RGB value - like "rgb(255,0,0)"</li>
+			<h3>Example:</h3>
+				<h4>here were giving the background-color:green</h4>
+				<div> &lt div &gt<br>
+					In the text we are giving rgb color i.e.rgb( 0, 255, 255.)
+					<p id="example">&lt p &gtThis paragraph has its own background color.here we are giving color in hex
+					i.e. #FFFF00&lt /p &gt</p>
+					We are still in the div element.<br>&lt div &gt
+				</div> <hr><hr>
+
+	<h2><u>Opacity / Transparency:-</u></h2>
+
+		<p>The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value,
+		The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
+			<h3>Example:</h3>
+
+			<h4 id="one">opacity 1 (default)</h1>
+
+			<div class="second">
+			  <h4 id="one">opacity 0.6</h1>
+			</div>
+		
+
+			<div class="third">
+			  <h4 id="one">opacity 0.3</h1>
+			</div>
+
+			<div class="forth">
+			  <h4 id="one">opacity 0.1</h1>
+			</div>
+		 <p id="note">Note:When using the opacity property to add transparency to the background of an element,
+		 all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.</p><hr><hr>
+	
+	
+	<h2><u>Transparency using RGBA:-</u></h2>
+		<p>If you do not want to apply opacity to child elements we can use RGBA color values.In addition to RGB, you can use an RGB color value
+		 with an alpha channel (RGBA) - which specifies the opacity for a color.</p>
+		<p>An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</p>
+
+		<h3>Example:</h3>
+			<p>  background: rgba(0, 128, 0, 0.3);Green background with 30% opacity<br> background: rgba(0, 128, 0, 0.6);Green background with 60% opacity</p><br>
+			<div class="fifth">
+ 			   <h3>10% opacity</h3>
+			</div>
+
+			<div class="sixth">
+			   <h3>30% opacity</h3>
+			</div>
+
+			<div class="seventh">
+			  <h3>60% opacity</h3>
+			</div>
+
+			<div class="eight">
+			  <h3>default</h3>
+			</div><hr><hr>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
